@@ -1,5 +1,11 @@
 {
+  "sast": {
+    "preset": "OWASP Top 10 2013"
+  },
   "cxFlow": {
+    "branches": {
+      "cx-imatlin-*"
+    },
     "jira": {
       "project": "CPT"
     }

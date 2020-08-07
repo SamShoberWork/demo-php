@@ -3,7 +3,7 @@
     "preset": "OWASP Top 10 2013"
   },
   "cxFlow": {
-    "branches": ["cx-imatlin-\\w+", "master"],
+    "branches": ["cx-imatlin-.*", "master"],
     "jira": {
       "project": "CPT"
     }
